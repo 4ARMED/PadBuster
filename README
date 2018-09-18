@@ -14,3 +14,7 @@ to padding oracle attacks.
 
 PadBuster is released under the Reciprocal Public License 1.5 (RPL1.5)
 http://www.opensource.org/licenses/rpl1.5
+
+UPDATE: Added a Dockerfile so we it's possible to build a Docker image from this and run PadBuster in a container. There's also a public image available.
+
+`docker run 4armed/padbuster <options>`
